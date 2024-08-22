@@ -30,21 +30,71 @@
     </script>
 
     <style>
-        lato-font{
+        .lato-font {
             font-family: "Lato", sans-serif;
         }
     </style>
 </head>
 
-<body>
+<body class="lato-font">
 
     <!-- header section -->
-    <header>
-
+    <header class="max-w-[1440px] w-full lg:w-3/4 px-5 lg:mx-auto">
+        <nav class="flex items-center justify-between lg:bg-btn-color rounded-full lg:px-12 lg:py-8 my-14">
+            <div class="hidden lg:flex">
+                <ul class="hidden lg:flex gap-7 text-white font-medium p-2">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-4">
+                <img src="images/logo.png" class="w-9" alt="">
+                <h3 class="lg:text-white font-bold text-sm lg:text-4xl">Fruit Burst</h3>
+            </div>
+            <div>
+                <label class="hidden input input-bordered rounded-full lg:flex items-center gap-2 min-w-80">
+                    <input type="text" class="grow" placeholder="Search here" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-8 w-8">
+                        <path fill-rule="evenodd"
+                            d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </label>
+                <div class="lg:hidden">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h7" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm bg-base-100 rounded-box z-[1] mt-3 w-28 p-2 shadow dropdown-content right-6">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="max-w-[1440px] w-3/4 mx-auto px-5">
 
     </main>
 
