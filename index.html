@@ -196,47 +196,212 @@
 
         <!-- deal section -->
         <section class="my-36">
-            <div class="flex justify-between items-center">
+            <div class="flex flex-col lg:flex-row gap-5 text-center lg:text-left justify-between items-center">
                 <div class="space-y-6">
                     <h3 class="text-5xl font-extrabold text-[#121212]">Deal of the day</h3>
-                    <p class="max-w-xl"> Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p class="max-w-xl"> Contrary to popular belief, is not simply random text. It has roots in a piece
+                        of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div>
                     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-[#121212] text-5xl">
-                            <span style="--value:15;"></span>
-                          </span>
-                          days
+                            <span class="countdown font-extrabold text-[#121212] text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
                         </div>
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-[#121212] text-5xl">
-                            <span style="--value:10;"></span>
-                          </span>
-                          hours
+                            <span class="countdown font-extrabold text-[#121212] text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
                         </div>
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-[#121212] text-5xl">
-                            <span style="--value:24;"></span>
-                          </span>
-                          min
+                            <span class="countdown font-extrabold text-[#121212] text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
                         </div>
                         <div class="flex flex-col">
-                          <span class="countdown font-extrabold text-[#121212] text-5xl">
-                            <span style="--value:${counter};"></span>
-                          </span>
-                          sec
+                            <span class="countdown font-extrabold text-[#121212] text-5xl">
+                                <span style="--value:${counter};"></span>
+                            </span>
+                            sec
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                <div class="flex flex-col items-center justify-center gap-6 border border-gray-200 rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-12 gap-6">
+
+                <!-- card1 -->
+                <div class="flex flex-col items-center justify-center gap-6 border border-gray-200 rounded-lg p-12">
                     <img src="images/fruit6.png" alt="">
                     <h3 class="text-2xl font-bold text-[#121212] mt-6">12.90$ - 18.85$</h3>
                     <div class="divider"></div>
                     <p class="opacity-65">Apples</p>
-                    <button class="btn btn-link text-btn-color">Details</button>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500"
+                            checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                    </div>
+                    <button class="btn btn-ghost hover:bg-btn-color hover:text-white text-btn-color">Details</button>
+                </div>
+
+                <!-- card2 -->
+                <div class="flex flex-col items-center justify-center gap-6 border border-gray-200 rounded-lg p-12">
+                    <img src="images/fruit7.png" alt="">
+                    <h3 class="text-2xl font-bold text-[#121212] mt-6">12.90$ - 18.85$</h3>
+                    <div class="divider"></div>
+                    <p class="opacity-65">Orange</p>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500"
+                            checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                    </div>
+                    <button class="btn btn-ghost hover:bg-btn-color hover:text-white text-btn-color">Details</button>
+                </div>
+
+                <!-- card3 -->
+                <div class="flex flex-col items-center justify-center gap-6 border border-gray-200 rounded-lg p-12">
+                    <img src="images/fruit8.png" alt="">
+                    <h3 class="text-2xl font-bold text-[#121212] mt-6">12.90$ - 18.85$</h3>
+                    <div class="divider"></div>
+                    <p class="opacity-65">Red Dragon
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500"
+                            checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                    </div>
+                    </p>
+                    <button class="btn btn-ghost hover:bg-btn-color hover:text-white text-btn-color">Details</button>
+                </div>
+
+                <!-- card4 -->
+                <div class="flex flex-col items-center justify-center gap-6 border border-gray-200 rounded-lg p-12">
+                    <img src="images/fruit9.png" alt="">
+                    <h3 class="text-2xl font-bold text-[#121212] mt-6">12.90$ - 18.85$</h3>
+                    <div class="divider"></div>
+                    <p class="opacity-65">Banana</p>
+                    <div class="rating rating-lg rating-half">
+                        <input type="radio" name="rating-10" class="rating-hidden" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-green-500" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-green-500"
+                            checked="checked" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-1 bg-gray-100" />
+                        <input type="radio" name="rating-10" class="mask mask-star-2 mask-half-2 bg-gray-100" />
+                    </div>
+                    <button class="btn btn-ghost hover:bg-btn-color hover:text-white text-btn-color">Details</button>
+                </div>
+            </div>
+            <div class="flex justify-center mt-12">
+                <button class="btn bg-btn-color border-none text-white hover:bg-orange-600">Shop All</button>
+            </div>
+        </section>
+
+        <!-- team section -->
+        <section
+            class="bg-[linear-gradient(180deg,rgba(18,18,18,0.7),rgba(18,18,18,0.7)),url('images/banner1.png')] bg-center rounded-lg bg-cover object-cover text-white lg:px-56 lg:py-28 py-6 px-7">
+            <div class="space-y-6">
+                <h3 class="text-center text-5xl font-extrabold">Meet the team section</h3>
+                <p class="max-w-xl font-medium text-center mx-auto">Contrary to popular belief, is not simply random
+                    text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                    old.</p>
+            </div>
+            <div class="grid grid-cols-1 mt-12 md:grid-cols-2 lg:grid-cols-4 gap-16">
+
+                <!-- card1 -->
+                <div class="flex flex-col justify-center items-center">
+                    <img src="images/member1.png" alt="">
+                    <h4 class="text-2xl mt-8 mb-2 font-bold text-center">Awlad Hossain</h4>
+                    <p class="font-medium mb-4">Fruits Expert</p>
+                    <div>
+
+                    </div>
+                </div>
+
+                <!-- card2 -->
+                <div class="flex flex-col justify-center items-center">
+                    <img src="images/member2.png" alt="">
+                    <h4 class="text-2xl mt-8 mb-2 font-bold text-center">Safia Chowdhury</h4>
+                    <p class="font-medium mb-4">Fruits Expert</p>
+                    <div>
+
+                    </div>
+                </div>
+
+                <!-- card3 -->
+                <div class="flex flex-col justify-center items-center">
+                    <img src="images/member3.png" alt="">
+                    <h4 class="text-2xl mt-8 mb-2 font-bold text-center">Rokib Hossain</h4>
+                    <p class="font-medium mb-4">Fruits Expert</p>
+                    <div>
+
+                    </div>
+                </div>
+
+                <!-- card4 -->
+                <div class="flex flex-col justify-center items-center">
+                    <img src="images/member4.png" alt="">
+                    <h4 class="text-2xl mt-8 mb-2 font-bold text-center">Chaity</h4>
+                    <p class="font-medium mb-4">Fruits Expert</p>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- why choose section -->
+        <section class="my-36">
+            <div class="space-y-6 text-center mb-12">
+                <h3 class="text-5xl font-extrabold text-[#121212]">Why Choose Us</h3>
+                <p class="max-w-xl mx-auto"> Contrary to popular belief, is not simply random text. It has roots in a
+                    piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+            <div>
+                <div>
+                    <div>
+
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
                 </div>
             </div>
         </section>
